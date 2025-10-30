@@ -234,6 +234,7 @@ templateFolders.forEach((folderName) => {
   }
 
   const screenshot = document.createElement("img");
+  screenshot.alt = `${folderName} template preview`;
 
   // Checking if the template is in our "working" list
   if (workingTemplates.includes(folderName)) {
