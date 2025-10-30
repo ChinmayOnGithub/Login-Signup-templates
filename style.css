@@ -64,7 +64,7 @@ header p {
   width: 100%;
   padding: 12px 40px 12px 15px;
   border-radius: 10px;
-  border: none;
+  border: 2px solid transparent;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.15);
   color: var(--text-primary);
@@ -81,6 +81,8 @@ header p {
 #search-input:focus {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 8px var(--accent-color);
+  border: 2px solid var(--accent-color);
+  transform: translateY(-2px);
 }
 
 /* Clear button (×) */
